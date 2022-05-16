@@ -1,0 +1,26 @@
+Webpack is a bundler whereas Gulp is a task runner, so you'd expect to see these two tools commonly used together. Instead, there's a growing trend, especially among the React community, to use Webpack instead of Gulp. Why is this?
+
+
+
+
+Gulp is a JavaScript task runner that lets you automate tasks such as… Bundling and minifying libraries and stylesheets. Refreshing your browser when you save a file. Quickly running unit tests.
+
+At a high level, gulp reads files as streams and pipes the streams to different tasks.
+
+
+
+gulp and Grunt are task runners. They are different approaches to same problem. Grunt uses configuration based approach, while gulp uses streams from node to achieve result. You use them to define how and which tasks to execute (copying files, adding banners, replacing text, style checking, etc...)
+
+
+
+Grunt and Gulp are task runners, while Webpack is a module bundler. Task runners are basically used to automate tasks in a development process. Some of these tasks include compressing JS files, compiling Sass files, watching out for file changes, minifying files and auto-prefixing.
+
+
+
+
+how many types of streams are available - 5streams are Asynchronous. Is this true or False - Truebetween grunt and gulp, which is relatively fast - Gulpwhile installing gulp, the first installation step would be - $ npm install gulpgwhich plugin notifies whenever there is any change in file - gulp-watchwhich helps with sequencing the tasks one bye one - .pipewhich task would be called in gulp, by default - defaultorganizing the gulp plugins can be easily achieved through - gulp-load-pluginsIn-memory caching is enabled with the help of which gulp plug-in - gulp-cookieTo convert .svg icons into fonts, gulp provides -- plug-in - gulp-svgchangewhich plug-in has optimizers and compressors - gulp-imageminwhich package helps in minifying the css - gulp-css-minifythe different kinds of streams include - readable,writable, duplex , classoc,transformthe default task representation in gulp will be like -gulp.task('default'.function(){});
+
+
+
+
+Recruitment@grazitti.com
